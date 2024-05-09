@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.caberalho {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.caberalho h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+input[type="number"],
+select {
+    width: calc(100% - 20px);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+select {
+    margin-top: 5px;
+}
+
+.botaoCalcular {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.botaoCalcular:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+h2 {
+    text-align: center;
+}
